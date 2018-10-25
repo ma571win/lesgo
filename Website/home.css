@@ -1,0 +1,18 @@
+.content{
+    background-image: url("pictures/work.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 900px;
+    width: 100%;
+    bottom: 48px;
+
+}
+
+#homeTXT{
+    background-color: white;
+    height: 400px;
+    width: 1000px;
+    display: inline-block;
+
+}
