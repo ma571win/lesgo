@@ -3,10 +3,10 @@
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    height: 900px;
+    top: 203px;
     width: 100%;
     bottom: 48px;
-
+    position: fixed;
 }
 
 #homeTXT{
@@ -14,30 +14,56 @@
     margin-left: 30px;
     margin-right: 30px;
     background-color: lightgoldenrodyellow;
-   /* height: 400px;
-    width: 1000px;*/
+    width: 1000px;
     display: inline-block;
 
+}
+
+#welcomeTXT{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #berichtTXT {
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    display: table;
+    display: inline-block;
+    width: 1000px;
 
 }
 
 #berichtTXT div {
     display: table-cell;
     vertical-align: middle;
-    background-color: lightgoldenrodyellow;
     width: 25%;
-    border-left: 4px lightskyblue solid;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+
+  #berichtTXT div div {
+      background-color: lightgoldenrodyellow;
+      border-left: 4px lightgray solid;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  #berichtTXT div p {
+      text-align: left;
+  }
 
 .content div {
     padding: 5px
+}
+
+#Hl {
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    margin-top: 5px; margin-bottom: 0px;
+    font-weight: bolder;
+    color: #e8a450;
+
 }
 
 /*  YEEEEEEEEET */
