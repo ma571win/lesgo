@@ -15,6 +15,8 @@ body{
     float: left;
     width: 100%;
     height: 100%;
+
+    border-bottom: #e8a450 5px solid;
 }
 
 #divHeaderText {
@@ -83,7 +85,7 @@ footer a {
 
 footer a:hover {
     font-size: 17px;
-    background-color: gray;
+    background-color: lightskyblue;
     border-bottom: #e8a450 5px solid;
     padding: 14px 16px 9px 16px;
     border-radius: 5px;
