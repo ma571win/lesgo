@@ -1,68 +1,38 @@
-.content{
-    background-image: url("pictures/work.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    height: 700px;
-    width: 100%;
-    bottom: 48px;
-}
-
-#homeTXT{
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    background-color: lightgoldenrodyellow;
-    width: 1000px;
-    display: inline-block;
-
-}
-
-#welcomeTXT{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#berichtTXT {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    display: inline-block;
-    width: 1000px;
-
-}
-
-#berichtTXT div {
-    display: table-cell;
-    vertical-align: middle;
-    width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
+@media only screen and (max-width: 1200px) {
+	.content {
+		background-size: auto 100% !important;
+	}
 }
 
 
-  #berichtTXT div div {
-      background-color: lightgoldenrodyellow;
-      border-left: 4px lightgray solid;
-      margin-left: 20px;
-      margin-right: 20px;
-  }
+.content {
+	background-image: url("pictures/work.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	bottom: 48px;
+}
 
-  #berichtTXT div p {
-      text-align: left;
-  }
+#homeTXT {
+	margin-top: 30px;
+	background-color: lightgoldenrodyellow;
 
-.content div {
-    padding: 5px
+	padding: 30px;
+}
+
+.berichtTXT {
+	margin-top: 30px;
+	padding: 5px;
+	background-color: lightgoldenrodyellow;
+	margin-bottom: 30px;
 }
 
 #Hl {
-    font-family: "Times New Roman", Times, serif;
-    font-size:30px;
-    margin-top: 5px; margin-bottom: 0px;
-    font-weight: bolder;
-    color: #e8a450;
-
+	font-family: "Times New Roman", Times, serif;
+	font-size: 50px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+	color: #e8a450;
 }
-
-/*  YEEEEEEEEET 2.0 */

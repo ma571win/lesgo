@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+	font-family: arial,sans-serif;
+}
+
+.header{
+    height: 100%;
+}
+
+.headerPicture{
+    background-image: url("pictures/webtechlogo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+	
+    float: left;
+    width: 100%;
+    height: 150px;
+    border-bottom: #e8a450 5px solid;
+}
+
+#headerButtons{
+    float: right;
+    margin: 10px;
+	
+}
+
+#headerButtons button{
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	border: 0;
+	border-radius: 4px;
+	padding:       8px 20px;
+	color:         #ffffff;
+	text-align:    center;
+	text-shadow:   none;
+}
+
+#btnSignIn{
+	background-color: #4685f3;
+}
+
+#btnRegister{
+	background-color: #85827e;
+}
+
+.nav{
+    background-color: gray;
+    list-style:none;
+    margin: 0;
+    padding:0;
+    text-align:center;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    transition: 0.3s;
+    display:inline-block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 40px;
+}
+
+.nav a:hover {
+    background-color: lightskyblue;
+    border-bottom: #e8a450 5px solid;
+    border-radius: 5px;
+    padding: 14px 40px 8px;
+}
+
+footer {
+    background-color: gray;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer a {
+    transition: 0.3s;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+footer a:hover {
+    font-size: 17px;
+    background-color: lightskyblue;
+    border-bottom: #e8a450 5px solid;
+    padding: 14px 16px 9px 16px;
+    border-radius: 5px;
+    color: white;
+}
+
+#footerleft{
+    float: right;
+
+}
+
+h2{
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+    margin-top: 5px; margin-bottom: 0px;
+    font-weight: bolder;
+    color: #efbd81;
+    text-align: left;
+}
