@@ -70,11 +70,15 @@ body, html {
 }
 
 .topnav a:hover {
-	background-color: lightgrey !
-;
+	background-color:  lightgrey !important;
 	border-bottom: #e8a450 5px solid;
 	border-radius: 5px;
 	padding: 10px 30px 5px !important;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
 }
 
 #btnNav {
@@ -95,19 +99,19 @@ footer {
 }
 
 footer a {
-	transition: 0.3s;
 	float: left;
 	display: block;
 	color: #f2f2f2;
-	text-align: center;
+	text-align: center;    
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
 }
 
 footer a:hover {
+    text-decoration: none;
 	font-size: 17px;
-	background-color: lightskyblue;
+	background-color: lightgrey;
 	border-bottom: #e8a450 5px solid;
 	padding: 14px 16px 9px 16px;
 	border-radius: 5px;
