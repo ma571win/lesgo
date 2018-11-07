@@ -51,6 +51,8 @@ body, html {
 }
 
 .topnav {
+    z-index: 9999;
+    background: white;
 	overflow: hidden;
 	background-color: grey;
 	border-radius: 0;
